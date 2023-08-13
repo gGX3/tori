@@ -1,0 +1,1052 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	font-family:'poppins', sans-serif;
+}
+
+body{
+	max-width:100%;
+	max-height:100vh;
+	
+}
+
+.slcon{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:100vh;
+	background:#f7f7f7;
+}
+
+.Mconchat{
+	width:100%;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:#343434;
+}
+
+.wrapper{
+	padding:12px;
+	background:#fff;
+	width:450px;
+	border-radius:16px;
+	box-shadow:0 0  128px 0 rgba(0,0,0,0.1),
+	           0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.chatWrapper{
+	background:#fff;
+	width:90%;
+	border-radius:16px;
+	box-shadow:0 0  128px 0 rgba(0,0,0,0.1),
+	           0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+
+/*Dito na magsimula ang signup form css code*/
+
+#formv{
+	padding:25px 30px;
+}
+
+.form header{
+	font-size:25px;
+	font-weight:600;
+	padding-bottom:10px;
+	border-bottom:1px solid #e6e6e6;
+}
+
+
+.form header{
+	font-size:25px;
+	font-weight:600;
+	padding-bottom:10px;
+	border-bottom:1px solid #e6e6e6;
+}
+
+.form form{
+	margin:20px 0;
+}
+
+.form form .error-txt{
+	color: #721c24;
+	background:#f8d7da;
+	padding:8px 10px;
+	text-align:center;
+	border-radius:5px;
+	margin-bottom:10px;
+	border:1px solid #f5c6cb;
+	display:none;
+}
+
+.form form .name-details{
+	display:flex;
+}
+
+form .name-details .field:first-child{
+	margin-right:10px;
+}
+
+form .name-details .field:last-child{
+	margin-left:10px;
+}
+
+.form form .field{
+	display:flex;
+	position:relative;
+	flex-direction:column;
+	margin-bottom:10px;
+}
+
+.form form .field label{
+	margin-bottom:2px;
+}
+
+.form form .field input{
+	outline:none;
+}
+
+.form form .input input{
+	height:40px;
+	width:100%;
+	font-size:16px;
+	padding:0 10px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+
+.form form .image input{
+	font-size:17px;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+.form form .button input{
+	margin-top:13px;
+	height:45px;
+	border:none;
+	font-size:17px;
+	font-weight:400;
+	background:#333;
+	color:#fff;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.form form .field span,
+.form form .field i{
+	position:absolute;
+	right:15px;
+	color:#ccc;
+	top:70%;
+	transform: translateY(-50%);
+	cursor:pointer;
+}
+
+.form form .field i.active::before{
+	color: #333;
+	content:"\f070";
+}
+
+.form .link{
+	text-align:center;
+	margin:10px 0;
+	font-size:17px;
+}
+
+.form .fpass{
+	
+	font-size:0.9em;
+}
+
+.form .link a{
+	color:#333;
+}
+
+.form .link a:hover{
+	text-decoration:underline;
+}
+
+/*Dito na magsimula ang users css code*/
+
+
+/*showwwww hideeeee*/
+
+.users.show{
+	width:25%;
+}
+
+
+.users .search.show{
+	width:100%;
+	padding-left:none;
+	border:none;
+}
+
+.mcon{
+    max-height:120vh;
+    max-width:100%;
+    margin:0;	
+}
+
+.top{
+	width:100%;
+	height:8vh;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	background:rgba(0,0,0,0.9);
+	border-bottom:green solid 4px;
+}
+
+.top .nav-links-cp{
+	display:none;
+}
+
+.menu-cp{
+	display:none;
+}
+
+
+
+.top .top-con{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-items:center;
+	width:350px;
+	list-style:none;
+}
+
+
+.top .top-con li button{
+	width:40px;
+	height:30px;
+	border:none;
+	outline:none;
+	background:#333;
+	color:#fff;
+	font-size:15px;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+.menu-hamburger{
+	position:absolute;
+	top:40x;
+	right:10px;
+	display:none;
+}
+
+.top .top-con .logout{
+	color:#fff;
+	font-size:17px;
+	padding:7px 15px;
+	background:#333;
+	border-radius:5px;
+}
+
+.top .top-con .logout:hover{
+	color:red;
+	font-size:17px;
+	background:gray;
+	border-radius:10px;
+}
+
+.top-con .bbt:hover{
+	background:gray;
+	border-radius:50px;
+}
+
+.logo{
+	font-size:25px;
+	color:white;
+	margin-left:6px;
+	
+	
+	
+}
+
+.ti{
+   color: white;
+   
+ 
+}
+
+
+.ow{
+	 text-decoration-line: line-through;
+	 text-decoration-style: wavy;
+	 text-decoration-thickness: 20%;
+	 text-decoration-color: red;
+}
+
+.ar{
+	 text-transform: capitalize;
+	 font-weight: bold;
+	 
+	 
+}
+
+.ay{
+	font-weight:500;
+	color:blue;
+	text-decoration-line: underline;
+	
+}
+
+.userscon{
+	
+	width:100%;
+	height:100vh;
+	display:flex;
+	flex-direction:row;
+}
+
+
+
+
+.userscon .onlinecon{
+	width:10%;
+	background:WHITE;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+
+
+.mbogart{
+	width:100%;
+	border-left:1px solid #e6e6e6;
+}
+
+.mbogart .form{
+	min-height:78vh;
+	max-height:78vh;
+	overflow-y:auto;
+	background:#f7f7f7;
+	padding:10px 30px 20px 30px;
+	box-shadow: insert 0 32px 32px -32px rgb(0 0 0 / 5%),
+	            insert 0 -32px 32px -32px rgb(0 0 0 / 5%);
+}
+
+.mbogart .form .inbox{
+	width:100%;
+	display:flex;
+	align-items:baseline;
+	
+}
+
+
+.mbogart .form .inbox .msg-{
+	max-width:100%;
+	margin-left:10px;
+}
+
+.form .bot-inbox .msg-header p{
+	background:#fff;
+	color:#333;
+	border-radius:0 18px 18px 18px ;	
+	padding:8px 10px;
+	font-size:14px;
+
+}
+
+.form .user-inbox .msg-header p{
+	background:#333;
+    color:#fff;
+    border-radius:18px 0 18px 18px ;	
+	padding:8px 10px;
+	font-size:14px;
+	
+
+	
+
+}
+
+.mbogart .form .user-inbox{
+	justify-content:flex-end;
+	margin:13px 0;
+}
+
+.mbogart .form .inbox .msg-header p{
+	word-wrap:break-word;
+	padding:8px 16px;
+	box-shadow: 0 0 32px rgb(0 0 0 / 8%),
+	            0 16px 16px -16px rgb(0 0 0 / 10%);
+}
+
+
+
+.mbogart .typing-field{
+	height:12vh;
+	display:flex;
+	
+}
+
+.mbogart .input-data{
+	
+	display:flex;
+	border-top:1px solid #d9d9d9;
+	padding:18px 30px;
+	justify-content:space-between;
+	width:90%;
+}
+
+
+
+.mbogart .typing-field input{
+	height:42px;
+	width:calc(100% - 58px);
+	font-size:17px;
+	border:1px solid #ccc;
+	padding:0 13px;
+	border-radius:5px 0 0 5px;
+	outline:none;
+}
+
+.mbogart .typing-field button{
+	width:55px;
+	border:none;
+	outline:none;
+	border-radius:0 5px 5px 0;
+	background:#333;
+	color:#fff;
+	font-size:19px;
+	cursor:pointer;
+}
+
+
+
+.bot-inbox img{
+	width:45px;
+	height:45px;
+	border-radius:50%;
+	
+}
+
+.bogartBtn{
+	width:100%;
+	outline:none;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-right:15px;
+	margin-top:10px;
+	page-break-after:10px;
+	color:#000;
+	background:none;
+	border:none;
+	
+	margin-bottom:5px;
+}
+
+
+
+
+
+.hbogart{
+	background:black;
+	height:10vh;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	padding-left:9px;
+	color:green;
+	
+}
+
+
+.hbogart img{
+	width:50px;
+	height:50px;
+	margin-right:10px;
+	border-radius:50px;
+}
+
+.hbogart .details span{
+	font-weight: 600;
+	font-size:20px;
+}
+
+
+.users{
+	padding:25px 18px;
+	width:100%;
+	/*background:#36454F;*/
+}
+
+
+
+.users header{
+	display:flex;
+	align-items:center;
+	padding-bottom:20px;
+	justify-content:space-between;
+	border-bottom:1px solid #e6e6e6;
+}
+
+.content img{
+	object-fit:cover;
+	border-radius:50%;
+	
+}
+
+.users header .content{
+	display:flex;
+	align-items:center;
+	
+}
+
+.users header .content img{
+	height:80px;
+	width:80px;
+}
+
+.users header .details{
+	color:#000;
+	margin-left:15px;
+}
+
+.users header .details span{
+	font-size:18px;
+	font-weight:500;
+}
+
+
+
+.users .search{
+	margin:20px 0;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	position:relative;
+	width:60%;
+	border:grey 1px solid;
+	border-radius:0 5px 5px 0;
+	padding-left:3px;
+	
+}
+
+
+
+.users .search .text{
+	font-size:18px;
+}
+
+.users .search input{
+	position:absolute;
+	height:42px;
+	width:calc(100% - 50px);
+    border: 1px solid #ccc;
+    padding:0 13px;
+    font-size:16px;
+	border-radius:5px 0 0 5px;
+	outline:none;
+	opacity:0;
+	pointer-events:none;
+	transition:all 0.3s ease;
+}
+
+.users .search input.active{
+	opacity:1;
+	pointer-events:auto;
+}
+
+.users .search button{
+	width:47px;
+	height:42px;
+	border:none;
+	outline:none;
+	color:#333;
+	background:#fff;
+	border-radius:0 5px 5px 0;
+	font-size:17px;
+	cursor:pointer;
+	transition:all 0.2s ease;
+}
+
+.users .search button.active{
+	color:#fff;
+	background:#333;
+}
+
+.users .search button.active i::before{
+	content:" \f00d ";
+}
+
+/* ito na yung part na kung saan makikita yung mga users*/
+
+.users-list{
+	max-height:345px;
+	overflow-y:auto;
+}
+
+.users-list::-webkit-scrollbar{
+	width:0px;
+}
+
+.users-list a{
+	display:flex;
+	align-items:center;
+	padding-bottom:20px;
+	justify-content:space-between;
+	border-bottom:1px solid #e6e6e6;
+	padding-right:15px;
+	margin-bottom:15px;
+	page-break-after:10px;
+	border-bottom-color: #f1f1f1;
+	color:#000;
+}
+
+.users-list a .content{
+	display:flex;
+	align-items:center;
+}
+
+
+.users-list a .content p{
+	color:#67676a;
+}
+
+
+
+
+.users-list a .details{
+	margin-left:10px;
+}
+
+.users-list .details span{
+	font-size:18px;
+	font-weight:500;
+}
+
+:is(.bogartBtn, .users-list ) .content img{
+	height:60px;
+	width:60px;
+}
+
+.bogartBtn .status-dot,
+.users-list a .status-dot{
+	font-size:12px;
+	color:#468669;
+}
+
+/*gagamitin ang class na ito sa php para mapakita kung offline ang users*/
+
+.users-list a .status-dot.offline{
+	color:#ccc;
+}
+
+/*Dito na magsimula ang chat-area css code*/
+
+.chat-area header{
+	display:flex;
+	align-items:center;
+	padding: 18px 30px;
+}
+
+.chat-area header .back-icon{
+	font-size:18px;
+	color:#333;
+}
+
+.chat-area header img{
+	height:45px;
+	width:45px;
+	margin:0 15px;
+	border-radius:50px;
+}
+
+.chat-area header span{
+	font-size:17px;
+	font-weight:500;
+}
+
+/*chat box area code*/
+
+.chat-box,
+ .g-chat-box{
+	overflow-y:auto;
+	height:450px;
+	background:#f7f7f7;
+	padding:10px 30px 20px 30px;
+	box-shadow: insert 0 32px 32px -32px rgb(0 0 0 / 5%),
+	            insert 0 -32px 32px -32px rgb(0 0 0 / 5%);
+}
+
+.chat-box .chat,
+ .g-chat-box .chat{
+	margin:15px 0;
+}
+
+.chat-box .chat p,
+ .g-chat-box .chat p{
+	word-wrap:break-word;
+	padding:8px 16px;
+	box-shadow: 0 0 32px rgb(0 0 0 / 8%),
+	            0 16px 16px -16px rgb(0 0 0 / 10%);
+}
+
+.chat-box .outgoing,
+ .g-chat-box .sender{
+	display:flex;
+}
+
+.outgoing .details,
+ .sender .details{
+	margin-left:auto;
+	max-width:calc(100% - 130px);
+}
+
+.outgoing .details p,
+.sender .details p{
+    background:#333;
+    color:#fff;
+    border-radius:18px 18px 0 18px;	
+}
+
+.chat-box .incoming,
+.g-chat-box .reciever{
+	display:flex;
+	align-items:flex-end;
+	
+}
+
+.chat-box .incoming img,
+.g-chat-box .reciever img{
+	height:35px;
+	width:35px;
+	
+}
+
+.incoming .details,
+.reciever .details{
+	margin-left:10px;
+	margin-right:auto;
+	max-width:calc(100% - 130px);
+}
+
+.incoming .details p,
+.reciever .details p{
+	background:#fff;
+	color:#333;
+	border-radius:18px 18px 18px 0 ;	
+}
+
+.reciever{
+	flex-direction:column;
+}
+
+.reciever .nnmm {
+	padding-bottom:1px;
+	color:#333;
+	font-size:0.7em;
+	margin-left:27px;
+	margin-right:auto;
+	max-width:calc(100% - 130px);
+}
+
+.Mconchat .chat-area header .leftside{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+.Mconchat .chat-area header .leftside a{
+	margin-right:4px;
+}
+
+
+/*typing area code*/
+
+.chat-area .typing-area{
+	padding: 18px 400px 18px 18px;
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+.typing-area input{
+	height:45px;
+	width:calc(100% - 58px);
+	font-size:17px;
+	border:1px solid #ccc;
+	padding:0 13px;
+	border-radius:5px 0 0 5px;
+	outline:none;
+}
+
+.typing-area button{
+	width:55px;
+	border:none;
+	outline:none;
+	border-radius:0 5px 5px 0;
+	background:#333;
+	color:#fff;
+	font-size:19px;
+	cursor:pointer;
+}
+
+body{
+margin:0;
+overflow-x:hidden;
+}
+
+
+
+
+/* verify area*/
+
+#vhead{
+	font-size:25px;
+	font-weight:600;
+	padding-bottom:10px;
+	border-bottom:1px solid #e6e6e6;
+}
+
+.vbody{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:skyblue;
+}
+
+.vform{
+	height:50vh;
+	width:30%;
+	background:whitesmoke;
+	padding:10px;
+	border-radius: 15px;
+}
+
+.vform p{
+	font-size:0.9em;
+	padding-top: 4px;
+}
+
+.otp_field{
+	border-radius:5px;
+	font-size:40px;
+	height:50px;
+	width:50px;
+	border: 3px solid #cacaca;
+	margin:1%;
+	text-align: center;
+	font-weight: 600;
+	outline:none;
+}
+
+.v-error{
+	color: #721c24;
+	background:#f8d7da;
+	padding:8px 10px;
+	text-align:center;
+	border-radius:5px;
+	margin-bottom:10px;
+	border:1px solid #f5c6cb;
+	display:none;
+}
+
+.otp_field::-webkit-inner-spin-button,
+.otp_field::-webkit-outer-spin-button{
+	-webkit-appearance: none;
+	margin:0;
+}
+
+.otp_field:valid{
+	border-color:#3095d8;
+	box-shadow:0 10px 10px -5px rgba(0,0,0,0.25);
+}
+
+.vbutton{
+	margin-top:13px;
+	height:45px;
+	border:none;
+	font-size:17px;
+	font-weight:400;
+	background:#333;
+	color:#e0c7c7;
+	border-radius:5px;
+	cursor:pointer;
+	width:100%;
+}
+
+.v-input-field{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0;
+  }
+  
+  /*dito nag sisimula sa settings*/
+  
+ 
+  
+  @media only screen and (max-width: 960px) {
+	.vform {
+		height: 55vh;
+		width: 80%;
+	}
+
+	.otp_field {
+		font-size: 35px;
+		height: 40px;
+		width: 40px;
+	}
+
+     .chat-box,
+		.g-chat-box{
+			overflow-y:auto;
+			height:450px;
+			background:#f7f7f7;
+			padding:10px 30px 20px 30px;
+			box-shadow: insert 0 32px 32px -32px rgb(0 0 0 / 5%),
+						insert 0 -32px 32px -32px rgb(0 0 0 / 5%);
+		}
+}
+
+@media (max-width: 720px), (max-width: 700px), (max-width: 436px) {
+	.footer {
+		text-align: left;
+		padding: 5%;
+	}
+	.footer .row ul li {
+		display: block;
+		margin: 10px 0px;
+		text-align: left;
+	}
+	.footer .row a i {
+		margin: 0% 3%;
+	}
+}
+
+@media (max-width: 700px) {
+	.chat-area .typing-area {
+		padding: 18px 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.top .nav-links {
+		display: none;
+	}
+
+	.menu-hamburger {
+		background: none;
+		border: none;
+		padding: 2px;
+	}
+	.menu-hamburger:hover {
+		background: gray;
+		border: none;
+		border-radius: 3px;
+	}
+	.menu-hamburger .ham {
+		width: 30px;
+		height: 3px;
+		background-color: white;
+		margin: 6px 0;
+	}
+	.menu-hamburger {
+		display: block;
+	}
+
+	/* user area */
+	.users .search {
+		width: 100%;
+	}
+	body::-webkit-scrollbar {
+		width: 0px;
+	}
+
+	.menu-cp {
+		background: rgba(0, 0, 0, 0.9);
+		height: 92vh;
+		width: 100%;
+		display: flex;
+	}
+	.menu-cp .top-con-cp {
+		list-style: none;
+		width: 100%;
+		height: 40vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+	.menu-cp .top-con-cp button {
+		background: none;
+		border: 0px;
+	}
+	.menu-cp .top-con-cp li {
+		color: white;
+		padding: 10px 100px 10px 10px;
+	}
+	.menu-cp .top-con-cp button,
+	.menu-cp .top-con-cp a {
+		color: white;
+	}
+	.menu-cp .top-con-cp li:hover {
+		background: gray;
+		border-left: yellow solid 4px;
+	}
+	.menu-cp .top-con-cp li {
+		color: white;
+	}
+
+	/* chat area */
+	.chatWrapper {
+		background: #fff;
+		width: 100%;
+		height: 100vh;
+	}
+	.chatWrapper {
+		border-radius: 0px;
+		height: 100vh;
+	}
+}
+
+@media (max-width: 436px) {
+	.wrapper {
+		border-radius: 0px;
+		height: 100vh;
+	}
+	.vbody {
+		width: 100%;
+	}
+	.vform {
+		width: 100%;
+		height: 100vh;
+		border: 0;
+	}
+
+	.menu-cp {
+		display: none;
+	}
+}
+
